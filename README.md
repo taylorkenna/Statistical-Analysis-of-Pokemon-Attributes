@@ -1,12 +1,12 @@
 # Statistical Analysis of Pokémon Attributes: Insights into Game Balance and Design
 ## Skills:
-Python: Pandas, Seaborn, Matplotlib, SciKit-learn, Google Colab
+**Python: Pandas, Seaborn, Matplotlib, SciKit-learn, Google Colab**
 
 ## Executive Summary:
 Using Python, I cleaned and examined Pokémon data to uncover key trends and insights that could inform decision-making for a hypothetical game design team. I analyzed statistical relationships among various Pokémon attributes (Attack, Defense, HP, Speed, and Type) to identify the strongest predictors of total battle performance. This analysis provides quantitative insights into how different attributes interact, which combinations lead to higher overall strength, and how these findings can guide game balance and design decisions.
 
 ## Business Problem:
-Question: Which Pokémon characteristics are most influential in determining overall performance?
+**Question: Which Pokémon characteristics are most influential in determining overall performance?**
 
 Understanding what drives Pokémon performance is crucial for game developers. Identifying these key drivers can help design balanced gameplay by adjusting under or over performing Pokémon, enhance player engagement through balance modifications, and inform future Pokémon designs. 
 
@@ -22,6 +22,10 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 * Analyzed correlations to reveal association
 * Visualized performance distributions for legendary vs non-legendary Pokémon
 
+<p align="center">
+  <img width="838" height="756" src="images/corr_matrix.png">
+</p>
+
 ### 3. Regression Analysis
 * Built a multiple linear regression model to predict total strength from individual stats and custom metrics such as Efficiency
 * Quantified contribution of each statistic to total strength
@@ -31,6 +35,10 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 * Compared mean stat values based on legendary vs non-legendary status
 * Visualized differences in total stats using boxplots
 * Ranked top-performing Pokémon by total base stats
+
+<p align="center">
+  <img width="571" height="455" src="images/boxplot.png">
+</p>
 
 ## Key Findings: 
 * All individual stats have a moderate positive relationship with total performance and legendary status.
@@ -48,3 +56,7 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 * Create Pokémon that specialize in one type of defense (physical or special) to make battles more strategic.
 * Redistribute stat points to give Pokémon more unique strengths and weaknesses.
 * Balance legendary power levels by introducing trade-offs, such as lower Speed or higher vulnerability.
+
+<p align="center">
+  <img width="460" height="300" src="images/pokemon_group.png">
+</p>
