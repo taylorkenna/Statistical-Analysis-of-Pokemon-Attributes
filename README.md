@@ -1,4 +1,6 @@
 # Statistical Analysis of Pokémon Attributes: Insights into Game Balance and Design
+## Skills:
+Python: Pandas, Seaborn, Matplotlib, SciKit-learn, Google Colab
 
 ## Executive Summary:
 Using Python, I cleaned and examined Pokémon data to uncover key trends and insights that could inform decision-making for a hypothetical game design team. I analyzed statistical relationships among various Pokémon attributes (Attack, Defense, HP, Speed, and Type) to identify the strongest predictors of total battle performance. This analysis provides quantitative insights into how different attributes interact, which combinations lead to higher overall strength, and how these findings can guide game balance and design decisions.
@@ -29,9 +31,6 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 * Compared mean stat values based on legendary vs non-legendary status
 * Visualized differences in total stats using boxplots
 * Ranked top-performing Pokémon by total base stats
-
-## Skills:
-Python: Pandas, Seaborn, Matplotlib, SciKit-learn, Google Colab
 
 ## Key Findings: 
 * All individual stats have a moderate positive relationship with total performance and legendary status.
