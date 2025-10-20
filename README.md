@@ -1,6 +1,6 @@
 # Statistical Analysis of Pokémon Attributes: Insights into Game Balance and Design
 ## Skills:
-**Python: Pandas, Seaborn, Matplotlib, SciKit-learn, Google Colab**
+**Python: Pandas, Seaborn, Matplotlib, Scikit-learn, Google Colab**
 
 ## Executive Summary:
 Using Python, I cleaned and examined Pokémon data to uncover key trends and insights that could inform decision-making for a hypothetical game design team. I analyzed statistical relationships among various Pokémon attributes (Attack, Defense, HP, Speed, and Type) to identify the strongest predictors of total battle performance. This analysis provides quantitative insights into how different attributes interact, which combinations lead to higher overall strength, and how these findings can guide game balance and design decisions.
