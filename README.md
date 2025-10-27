@@ -11,7 +11,7 @@ Using Python, I cleaned and examined Pokémon data to uncover key trends and ins
 Understanding what drives Pokémon performance is crucial for game developers. Identifying these key drivers can help design balanced gameplay by adjusting under or over performing Pokémon, enhance player engagement through balance modifications, and inform future Pokémon designs. 
 
 ## Methodology:
-### 1. Data cleaning & preparation:
+### 1. Data Cleaning & Preparation:
 * Cleaned column names for consistent formatting 
 * Handled missing values for attributes such as type, weight, height, and gender percentage
 * Converted numeric attributes to proper data types
