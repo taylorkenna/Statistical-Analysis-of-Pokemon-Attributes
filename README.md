@@ -43,7 +43,7 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 ## Key Findings: 
 * All individual stats have a moderate positive relationship with total performance and legendary status.
 * Defense and Special Defense are strongly related; Pokémon strong in one are usually strong in the other.
-* The regression model shows total stats are perfectly explained by the sum of individual attributes (R² = 1.0). 
+* The regression model shows total stats are explained by the sum of individual attributes (R² = 1.0). 
 * Legendary Pokémon have much higher stats overall than non-legendary ones.
 
 ## Insights:
@@ -55,7 +55,7 @@ Understanding what drives Pokémon performance is crucial for game developers. I
 ## Business Recommendations: 
 * Create Pokémon that specialize in one type of defense (physical or special) to make battles more strategic.
 * Redistribute stat points to give Pokémon more unique strengths and weaknesses.
-* Balance legendary power levels by introducing trade-offs, such as lower Speed or higher vulnerability.
+* Balance legendary power levels by introducing trade-offs, such as lower speed or higher vulnerability.
 
 <p align="center">
   <img width="460" height="300" src="images/pokemon_group.png">
